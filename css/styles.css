@@ -30,7 +30,7 @@ header {
 
 .hero-section {
   background-color: #3b4a55;
-  min-height: 400px;
+  /* min-height: 400px; */
   display: flex;
   align-content: center;
   justify-content: center;
@@ -41,4 +41,23 @@ header {
 
 .hero-section:hover {
   transform: scale(1.02);
+}
+
+/* clase personalizada 2 */
+
+.custom-list {
+  list-style: none;
+  padding: 10px 0;
+  padding-left: 30px;
+  position: relative;
+}
+
+.custom-list li:before {
+  content: "✅";
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  
 }
